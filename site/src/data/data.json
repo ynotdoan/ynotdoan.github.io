@@ -1,0 +1,10 @@
+{
+  "name": "Tony Doan", 
+  "birthday": "2001/05/06 06:00:00",
+  "location": "🇺🇸 California, USA", 
+  "education": {
+    "school": "University of California Merced",
+    "degree": "B.S. Computer Science and Engineering, Minor in Cognitive Science",
+    "year": "2019 - 2023"
+  }
+}
