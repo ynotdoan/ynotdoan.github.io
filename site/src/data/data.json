@@ -4,7 +4,13 @@
   "location": "🇺🇸 California, USA", 
   "education": {
     "school": "University of California Merced",
-    "degree": "B.S. Computer Science and Engineering, Minor in Cognitive Science",
+    "degree": ["Bachelors of Science Computer Science and Engineering", "Minor Cognitive Science"],
     "year": "2019 - 2023"
-  }
+  }, 
+  "interests": [
+    "Programming and learning new tools", 
+    "Philosophy", 
+    "Video games (jrpgs and Smash Ultimate)", 
+    "Chess"
+  ]
 }
