@@ -3,21 +3,20 @@ import data from "../data/data.json"
 function Projects() {
   return (
     <>
-      <h1>Selected Projects</h1>
-      <div>
-        {Object.entries(data).length > 0 && 
-          Object.entries(data.proj).map(([key, value]) => {
-            return (
-              <div key={key}>
-                <h3 className="inline-block">{value.name}</h3>
-                <br />
-                <h3 className="inline">{value.tools}</h3>
-                <br />
-                <h3 className="inline">{value.desc}</h3>
-                <br />
-              </div>
-            )
-        })}
+      <div className="relative">
+        <h1 className="text-center border-0 border-b-4 border-dashed border-green-500">SELECTED PROJECTS</h1>
+        <div className="flex flex-wrap justify-evenly gap-12">
+
+          {Object.entries(data).length > 0 && 
+            Object.entries(data.proj).map(([k, v]) => {
+              return (
+                <div key={k} className="bg-gray-200 w-[24rem] h-[16rem] rounded-xl">
+                  <h2 className="text-center">{v.name}</h2>
+                </div>
+              )
+            })}
+
+        </div>
       </div>
     </>
   )
