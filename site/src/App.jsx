@@ -1,15 +1,20 @@
-import About from './components/About'
 import Experience from './components/Experience'
-import Footer from './components/Footer'
+import Header from './components/Header'
+import Intro from './components/Intro'
+import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import "./index.css"
 
 function App() {
   return (
     <>
-      <About />
-      <Projects />
-      <Experience />
+      <div className="">
+        <Navbar />
+        <Header />
+        <Intro />
+        <Projects />
+        <Experience />
+      </div>
     </>
   )
 }
