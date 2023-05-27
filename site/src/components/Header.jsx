@@ -1,16 +1,13 @@
-import bg_header from "../assets/header.png"
-import me from "../assets/me.png"
-import l_icon from "../assets/linkedin-icon.png"
-import g_icon from "../assets/github-icon.png"
-import e_icon from "../assets/email-icon.png"
+import bg_header from "../assets/imgs/header.png"
+import me from "../assets/imgs/me.png"
 
 function Header() {
   return (
     <>
-      <div className="relative text-center w-full">
+      <div className="relative text-center w-full h-[24rem]">
 
         {/* BACKGROUND  */}
-        <div className="absolute w-full overflow-hidden border-0 border-b-8 border-solid border-green-500">
+        <div className="absolute w-full h-[23.5rem] overflow-hidden bg-green-500">
           <img 
             src={bg_header}
             alt="header-bg"
