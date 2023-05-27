@@ -14,25 +14,35 @@
     "Chess"
   ], 
   "proj": {
-    "msc": {
+    "0": {
+      "name": "ynotdoan.com",
+      "tools": "",
+      "desc": ""
+    },
+    "1": {
       "name": "Assessing and Grading Wood Bin Parts",
       "tools": ["Python", "Reactjs", "HTML", "Flask", "Yolov5", "SQLite", "Git"], 
       "desc": "Developped a modular application that involved machine learning, UI design, and database implementation to deliver The Morning Star Company an initial solution for their wooden bin sort process. This project won 1st place in the agriculture track at Innovate to Grow."
     }, 
-    "mdt": {
+    "2": {
       "name": "Mooday Tracker", 
       "tools": ["Python", "Javascript", "HTML", "CSS", "Flask", "SQLAlchemy", "Figma"],
       "desc": "A mood tracking website designed and built as part of the Health & Wellness track at HackMerced VIII. This website was built using Flask and Reactjs for users to fill out daily mood surveys and to journal their thoughts. Entries are saved so users can see a timeline of their mood and what may have contributed to it"
     },
-    "106": {
+    "3": {
       "name": "Social Media App", 
       "tools": ["Python", "Javascript", "HTML", "CSS", "Flask", "SQLAlchemy", "PythonAnywhere"],
       "desc": "Built and hosted a social media app that allows a user to login or create an account, make a post, follow and share posts to other users, and react to posts on their feed."
     }, 
-    "165": {
+    "4": {
       "name": "Pokemon Qt", 
       "tools": ["C++", "C", "Qt"],
       "desc": "A game built in a team using C++ and the Qt platform to demonstrate teamwork and object-oriented programming skill. The objective of this game is to wander around a map to find and battle the boss Arceus. The battle is turn-based and the boss’s moves are chosen randomly."
+    },
+    "5": {
+      "name": "Pokedex GUI",
+      "tools": "",
+      "desc": ""
     }
   },
   "exp": {
