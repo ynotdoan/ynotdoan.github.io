@@ -22,8 +22,8 @@ function About() {
     <>
       <div className="grid grid-cols-2 bg-gray-rgba rounded-xl p-8">
 
-        <div className="grid grid-cols-2 place-self-center">
-          <div className="place-self-center">
+        <div className="grid grid-cols-2 mx-24">
+          <div className="justify-self-center">
             <img 
               src={me}
               alt="tonydoan"
@@ -33,7 +33,6 @@ function About() {
           <div className="place-self-center text-center">
             <h1>TONY DOAN</h1>
             <h2>Software Engineer</h2>
-            <h2>(site WIP)</h2>
             <a href="" className="p-2">
               <img 
                 src={e_icon}
@@ -53,44 +52,45 @@ function About() {
               />
             </a>
           </div>
+
+          <h3 className="col-span-2 text-center">
+            I'm a motivated individual with experience in web development, application design, and artificial intelligence. 
+            I'm passionate about developping new skills, contributing in high impact environments, and working through challenges.
+          </h3> 
         </div>
 
         <div className="place-self-center text-left">
-          <table className="table-fixed border-separate border-2 border-solid border-black rounded-xl w-full mx-auto">
+          <table className="table-fixed border-separate border-2 border-solid border-black rounded-xl w-full">
             <tr>
-              <td className="text-center rounded-t-xl bg-gray-200" colSpan={2}>
-                <h3>
-                  I'm a motivated individual with experience in web development, application design, and artificial intelligence. 
-                  I'm passionate about developping new skills, contributing in high impact environments, and working through challenges.
-                </h3>
-              </td>
-            </tr>
-            <tr>
-              <td className="align-top bg-gray-0">
+              <td className="align-top bg-gray-0 w-1/3">
                 <h3>Location</h3>
                 <h3>{data.location}</h3>
               </td>
-            {/* </tr> */}
-            {/* <tr> */}
-              <td className="align-top bg-gray-0">
+              <td className="align-top bg-gray-0 w-2/3">
                 <h3>Education</h3>
-                <h3>{data.education.school} ({data.education.year}) <br />{data.education.degree}</h3>
+                <h3>
+                  {data.education.school} [{data.education.year}] <br />
+                </h3>
+                <ul>
+                  {data.education.degree.map((item, i) => {
+                    return <li><h3 className="inline">{item}</h3></li>
+                  })}
+                </ul>
               </td>
             </tr>
-            <tr className="bg-gray-200 col-span-2 text-center">
-              <td colSpan={2}>
-                <h3>Skills</h3>
-              </td>
-            </tr>
-            <tr className="align-top bg-gray-0">
-              <td>
+            <tr>
+              <td className="align-top bg-gray-0 w-1/3">
                 <h3>Age</h3>
                 <h3>{myAge}</h3> 
               </td>
-            {/* </tr> */}
-            {/* <tr> */}
-              <td>
+              <td className="align-top bg-gray-0 w-2/3">
                 <h3>Interests</h3> 
+                <ul>
+                  {data.interests.map((item, i) => {
+                    return <li><h3 className="inline">{item}</h3></li>
+                  })}
+                </ul>
+
               </td>
             </tr>
           </table>
