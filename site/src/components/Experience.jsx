@@ -3,21 +3,23 @@ import data from "../data/data.json"
 function Experience() {
   return(
     <>
-      <h1>Professional Experience</h1>
-      <div>
-        {Object.entries(data).length > 0 && 
-          Object.entries(data.exp).map(([key, value]) => {
-            return (
-              <div key={key}>
-                <h3 className="inline-block">{value.year}</h3>
-                <br />
-                <h3 className="inline">{value.company} | {value.location}</h3>
-                <br />
-                <h3 className="inline">{value.role}</h3>
-                <br />
-              </div>
-            )
-        })}
+      <div className="relative">
+        <h1 className="text-center border-0 border-b-4 border-green-500 border-dashed">PROFESSIONAL EXPERIENCE</h1>
+        <div className="w-3/4 m-auto">
+          {Object.entries(data).length > 0 && 
+            Object.entries(data.exp).map(([key, value]) => {
+              return (
+                <div key={key}>
+                  <h2 className="inline-block">{value.year}</h2>
+                  <br />
+                  <h2 className="inline">{value.company} | {value.location}</h2>
+                  <br />
+                  <h2 className="inline">{value.role}</h2>
+                  <br />
+                </div>
+              )
+          })}
+        </div>
       </div>
     </>
   )
