@@ -7,7 +7,7 @@ function Header() {
       <div className="relative text-center w-full h-[24rem]">
 
         {/* BACKGROUND  */}
-        <div className="absolute w-full h-[23.5rem] overflow-hidden bg-green-500">
+        <div className="absolute w-full h-[23.5rem] overflow-hidden bg-black">
           <img 
             src={bg_header}
             alt="header-bg"
