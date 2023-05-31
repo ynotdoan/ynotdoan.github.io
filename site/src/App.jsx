@@ -1,3 +1,4 @@
+import About from './components/About'
 import Experience from './components/Experience'
 import Header from './components/Header'
 import Intro from './components/Intro'
@@ -14,6 +15,7 @@ function App() {
         <Intro />
         <Projects />
         <Experience />
+        <About />
       </div>
     </>
   )
