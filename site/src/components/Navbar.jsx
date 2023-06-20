@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <>
-      <div className="z-20 sticky top-0 flex justify-between bg-white p-2 border-0 border-b-8 border-solid border-green-500">
+      <div className="primary-theme z-20 sticky top-0 flex justify-between p-2 border-0 border-b-8 border-solid secondary-theme">
 
         <div>
           <h1 className="inline">TONY DOAN</h1>

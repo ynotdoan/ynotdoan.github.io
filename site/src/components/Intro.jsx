@@ -9,7 +9,7 @@ function Intro() {
     <>
       <div className="flex flex-wrap justify-center">
         <div className="w-[64rem] p-4">
-          <h1 className="border-0 border-b-4 border-solid border-green-500">Hello, nice to meet you!</h1>
+          <h1 className="border-0 border-b-4 border-solid secondary-theme">Hello, nice to meet you!</h1>
           <h2 className="">
             I'm a motivated individual with experience in web development, application design, and artificial intelligence. 
             I'm passionate about developping new skills, contributing in high impact environments, and working through challenges.
@@ -17,7 +17,7 @@ function Intro() {
         </div>
 
         <div className="w-[24rem]">
-          <table className="m-auto border-spacing-x-4 border-4 border-solid border-green-500">
+          <table className="m-auto border-spacing-x-4 border-4 border-solid secondary-theme">
             <tr>
               <th className="text-center" colSpan={2}><h3>(Click on icons to contact me)</h3></th>
             </tr>

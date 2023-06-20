@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primary-theme {
+  @apply
+    bg-white text-black
+    dark:bg-black dark:text-white
+}
+
+.secondary-theme {
+  @apply
+    border-green-500
+    dark:border-orange-500
+}

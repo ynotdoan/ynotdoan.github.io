@@ -20,7 +20,7 @@ function Header() {
           {/* NAME AND ROLE */}
           <div className="z-10 text-white text-xl px-4">
             <h1 className="inline-block">Tony Doan</h1> <br />
-            <h2 className="inline border-0 border-b-4 border-solid border-green-500">Software Engineer</h2>
+            <h2 className="inline border-0 border-b-4 border-solid secondary-theme">Software Engineer</h2>
           </div>
 
           {/* PROFILE PIC */}
@@ -28,7 +28,7 @@ function Header() {
             <img 
               src={me}
               alt="header-img"
-              className="w-2/3 rounded-full border-4 border-solid border-green-500"
+              className="w-2/3 rounded-full border-4 border-solid secondary-theme"
             />
           </div>
           

@@ -18,7 +18,11 @@ function About() {
     <>
       <div className="relative">
 
-        <h1 className="text-center border-0 border-b-4 border-dashed border-green-500">About Me</h1>
+        <h1 className="text-center border-0 border-b-4 border-dashed secondary-theme">About Me</h1>
+
+        <div className="flex">
+
+        </div>
 
         <div className="flex flex-wrap justify-center">
 

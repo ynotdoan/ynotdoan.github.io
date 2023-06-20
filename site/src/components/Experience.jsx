@@ -4,7 +4,7 @@ function Experience() {
   return(
     <>
       <div className="relative">
-        <h1 className="text-center border-0 border-b-4 border-green-500 border-dashed">PROFESSIONAL EXPERIENCE</h1>
+        <h1 className="text-center border-0 border-b-4 secondary-theme border-dashed">PROFESSIONAL EXPERIENCE</h1>
         <div className="w-3/4 m-auto">
           {Object.entries(data).length > 0 && 
             Object.entries(data.exp).map(([key, value]) => {

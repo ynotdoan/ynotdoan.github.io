@@ -9,7 +9,7 @@ import "./index.css"
 function App() {
   return (
     <>
-      <div className="">
+      <div className="primary-theme">
         <Navbar />
         <Header />
         <Intro />

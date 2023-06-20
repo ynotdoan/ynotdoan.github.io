@@ -4,7 +4,7 @@ function Projects() {
   return (
     <>
       <div className="relative">
-        <h1 className="text-center border-0 border-b-4 border-dashed border-green-500">SELECTED PROJECTS</h1>
+        <h1 className="text-center border-0 border-b-4 border-dashed secondary-theme">SELECTED PROJECTS</h1>
         <div className="flex flex-wrap justify-evenly gap-16">
 
           {Object.entries(data).length > 0 && 
