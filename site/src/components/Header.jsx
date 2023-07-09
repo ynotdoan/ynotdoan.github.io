@@ -1,41 +1,61 @@
-import bg_header from "../assets/imgs/header.png"
-import me from "../assets/imgs/me.png"
+import linkedin from "../assets/imgs/linkedin-icon.png"
+import github from "../assets/imgs/github-icon.png"
+import email from "../assets/imgs/email-icon.png"
+import arrow from "../assets/imgs/arrow-icon.png"
+import resume from "../assets/RESUME.pdf"
 
 function Header() {
   return (
-    <>
-      <div className="relative text-center w-full h-[24rem]">
+    <div className="flex flex-col justify-around items-center w-screen h-screen overflow-hidden">
 
-        {/* BACKGROUND  */}
-        <div className="absolute w-full h-[23.5rem] overflow-hidden bg-black">
-          <img 
-            src={bg_header}
-            alt="header-bg"
-            className="opacity-1"
-          />
-        </div>
-
-        <div className="flex flex-wrap h-96 items-center justify-center">
-
-          {/* NAME AND ROLE */}
-          <div className="z-10 text-white text-xl px-4">
-            <h1 className="inline-block">Tony Doan</h1> <br />
-            <h2 className="inline border-0 border-b-4 border-solid secondary-theme">Software Engineer</h2>
-          </div>
-
-          {/* PROFILE PIC */}
-          <div className="z-10">
-            <img 
-              src={me}
-              alt="header-img"
-              className="w-2/3 rounded-full border-4 border-solid secondary-theme"
-            />
-          </div>
-          
-        </div>
-
+      <div className="text-center">
+        <h1 className="inline text-5xl">Check out my card...</h1>
       </div>
-    </>
+
+      <div className="flex flex-wrap justify-between items- text-center bg-[#F9F6EE] w-1/2 max-w-[900px] min-w-[300px] aspect-[5/3] drop-shadow-2xl">
+        {/* Site name */}
+        <div className="mt-8 ml-6">
+          <h2 className="inline">ynotdoan</h2>
+        </div>
+
+        {/* Contact */}
+        <div className="mt-8 mr-6">
+          <a href="https://www.linkedin.com/in/ynotdoan/" target="_blank">
+            <img src={linkedin} className="px-1" />
+          </a>
+          <a href="https://github.com/ynotdoan" target="_blank">
+            <img src={github} className="px-1" />
+          </a>
+          <a href="">
+            <img src={email} className="px-1" />
+          </a>
+        </div>
+
+        {/* Name */}
+        <div className="w-full">
+          <h1 className="">Tony DOAN</h1>
+          <h2 className="">Software Engineer</h2>
+        </div>
+        
+        {/* Links */}
+        <div className="w-full">
+          <h2>
+            <a>Projects</a> | <a>Experience</a> | <a>About</a>
+          </h2>
+        </div>
+      </div>
+
+      <div>
+        <a href={resume} target="_blank">
+          <button><h2>View my resume</h2></button>
+        </a>
+      </div>
+
+      <div className="animate-bounce">
+        <img src={arrow} />
+      </div>
+
+    </div>
   )
 }
 

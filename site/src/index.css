@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.primary-theme {
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* .primary-theme {
   @apply
     bg-white text-black
     dark:bg-black dark:text-white
@@ -12,4 +17,4 @@
   @apply
     border-green-500
     dark:border-orange-500
-}
+} */

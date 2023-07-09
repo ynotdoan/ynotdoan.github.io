@@ -8,16 +8,15 @@ import "./index.css"
 
 function App() {
   return (
-    <>
-      <div className="primary-theme">
-        <Navbar />
-        <Header />
-        <Intro />
-        <Projects />
-        <Experience />
-        <About />
-      </div>
-    </>
+    <div>
+
+      <Header />
+      <Navbar />
+      <Intro />
+      <Projects />
+      <Experience />
+      
+    </div>
   )
 }
 
