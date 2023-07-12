@@ -2,7 +2,7 @@ import me from "../assets/imgs/me.png"
 
 function Intro() {
   return (
-    <div className="flex flex-wrap justify-center my-24">
+    <div className="flex flex-wrap justify-center items-center w-screen h-screen">
 
       <div>
         <img 

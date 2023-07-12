@@ -3,7 +3,7 @@ import data from "../data/data.json"
 function Experience() {
   return(
     <>
-      <div className="relative">
+      <div className="relative min-w-screen min-h-screen">
         <h1 className="text-center border-0 border-b-4 secondary-theme border-dashed">PROFESSIONAL EXPERIENCE</h1>
         <div className="w-3/4 m-auto">
           {Object.entries(data).length > 0 && 
