@@ -50,19 +50,22 @@
       "company": "The Morning Star Company",
       "location": "Los Banos, CA",
       "year": "2023", 
-      "role": "Team Lead and Full Stack Developer (Assessing and Grading Wood Bin Parts Project)"
+      "role": "Team Lead and Full Stack Developer (Assessing and Grading Wood Bin Parts Project)",
+      "logo": "../assets/imgs/Morning-Star-logo.png"
     },
     "svb": {
       "company": "Silicon Valley Bank",
       "location": "Santa Clara, CA",
       "year": "2017-2019", 
-      "role": "End User Services Intern"
+      "role": "End User Services Intern", 
+      "logo": "../assets/imgs/Morning-Star-logo.png"
     },
     "tmi": {
       "company": "The Tech Museum of Innovation",
       "location": "San Jose, CA",
       "year": "2015-2017", 
-      "role": "Visitor Services Intern"
+      "role": "Visitor Services Intern", 
+      "logo": "../assets/imgs/Morning-Star-logo.png"
     }
   }
 }
