@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import data from "../data/data.json"
+import data from "../data/data"
 
 function About() {
   const [myAge, setMyAge] = useState(0)
